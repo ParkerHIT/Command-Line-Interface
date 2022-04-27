@@ -1,0 +1,54 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+Exercise 2¶
+Using whatever strategy you would like to move around, 
+change your working directory to the folder where you saved NYC_311calls_2018.zip. 
+Then run the command unzip NYC_311calls_2018.zip to decompress the file.
+
+Solution:
+
+Macaws-MacBook-Pro:DSI hakunamatata$ cd CLI\ Exercises
+Macaws-MacBook-Pro:CLI Exercises hakunamatata$ unzip NYC_311calls_2018.zip
+
+Terminal Response:
+
+Archive:  NYC_311calls_2018.zip
+   creating: NYC_311calls_2018/
+  inflating: NYC_311calls_2018/just_the_letter_a.docx  
+   creating: __MACOSX/
+   creating: __MACOSX/NYC_311calls_2018/
+  inflating: __MACOSX/NYC_311calls_2018/._just_the_letter_a.docx  
+  inflating: NYC_311calls_2018/just_the_letter_a.txt  
+  inflating: __MACOSX/NYC_311calls_2018/._just_the_letter_a.txt  
+  inflating: NYC_311calls_2018/README.md  
+  inflating: __MACOSX/NYC_311calls_2018/._README.md  
+  inflating: NYC_311calls_2018/311_SR_Data_Dictionary_2018.xlsx  
+  inflating: __MACOSX/NYC_311calls_2018/._311_SR_Data_Dictionary_2018.xlsx  
+  inflating: NYC_311calls_2018/NYC311_column_names.txt  
+  inflating: __MACOSX/NYC_311calls_2018/._NYC311_column_names.txt  
+  inflating: NYC_311calls_2018/CE-20170824.pdf  
+  inflating: __MACOSX/NYC_311calls_2018/._CE-20170824.pdf  
+   creating: NYC_311calls_2018/raw data/
+  inflating: NYC_311calls_2018/raw data/311calls_2018_5_3_Thursday.csv  
+   creating: __MACOSX/NYC_311calls_2018/raw data/
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_5_3_Thursday.csv  
+  inflating: NYC_311calls_2018/raw data/311calls_2018_2_10_Saturday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_2_10_Saturday.csv  
+  inflating: NYC_311calls_2018/raw data/311calls_2018_5_31_Thursday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_5_31_Thursday.csv   
+  inflating: NYC_311calls_2018/raw data/311calls_2018_12_25_Tuesday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_12_25_Tuesday.csv  
+  ................................................................................
+  ................................................................................
+  ................................................................................
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_6_9_Saturday.csv  
+  inflating: NYC_311calls_2018/raw data/311calls_2018_12_28_Friday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_12_28_Friday.csv  
+  inflating: NYC_311calls_2018/raw data/311calls_2018_12_2_Sunday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/raw data/._311calls_2018_12_2_Sunday.csv  
+  inflating: __MACOSX/NYC_311calls_2018/._raw data  
+  inflating: __MACOSX/._NYC_311calls_2018  
+Macaws-MacBook-Pro:CLI Exercises hakunamatata$ 
+  
