@@ -1,0 +1,9 @@
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+Exercise 1¶:
+Use the pwd (short for “print working directory”) command to ask your command line session where it currently thinks of itself being located. What is your current working directory?
+
+Solution:
+
+Macaws-MacBook-Pro:DSI hakunamatata$ pwd
+/Users/hakunamatata/Desktop/DSI
