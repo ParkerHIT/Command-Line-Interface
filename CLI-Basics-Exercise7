@@ -1,0 +1,11 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+Exercise 7¶ EXPLORING FILES
+Now let use xxd -b [filename] do the same for the Microsoft Word doc that also encodes just a single letter “a”. Does it look similar? 
+And that is why plaintext so useful – it’s simplicity makes it nearly universal across both platforms and time.
+
+
+
