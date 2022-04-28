@@ -3,7 +3,7 @@ https://www.practicaldatascience.org/html/command_line_part2.html
 
 https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
 
-Exercise 4¶
+Exercise 4¶ EXPLORING FILES
 Now let’s do the same with CE-20170824.pdf: run less CE-20170824.pdf. If less asks you a question, just type y.
 
 Solution:
