@@ -1,0 +1,21 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+Exercise 4¶
+Now let’s do the same with CE-20170824.pdf: run less CE-20170824.pdf. If less asks you a question, just type y.
+
+Solution:
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatata$ less CE-20170824.pdf
+Terminal Response:
+"CE-20170824.pdf" may be a binary file.  See it anyway? 
+
+
+What happened?! Unfortunately, CE-20170824.pdf was not a plain text file, but instead is what is referred to as a binary file. This distinction between plain text files and binary files will come up a lot, so let’s discuss it briefly.
+
+The terms “plain text” and “binary” are a little misleading since everything on your computer is stored as 1s and 0s (i.e. binary). What differentiates plain text and binary files is what those 1s and 0s are meant to represent.
+
+In a plain text file, the 1s and 0s of the file encode numbers and letters based on simple, commonly used codes (like ASCII or Unicode. These files also do not contain anything complicated (pictures, media, etc.), and in fact don’t even include information like fonts, or formatting. This simplicity makes plaintext files universally compatible, and easy to work with, so are a favorite of programmers. Any code you’ve ever written has probably been saved as a plaintext file.
+
+In a binary file, by contrast, the 1s and 0s encode much more complicated information. In this case, CE-20170824.pdf is a PDF file that includes images, different fonts, careful formatting, etc. As a result, it can only be openned by a PDF reader (like Preview or Adobe Reader) that knows how to interprete the file’s complicated content. If you open it with less, less tries to treat the 0s and 1s like they were just encoding simple letters and numbers, but since they don’t, the result is just gobblygook
