@@ -2,7 +2,7 @@ https://www.practicaldatascience.org/html/command_line_part1.html
 https://www.practicaldatascience.org/html/command_line_part2.html
 
 https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
-Exercise 2¶
+Exercise 2¶ NAVIGATING FOLDERS
 Using whatever strategy you would like to move around, 
 change your working directory to the folder where you saved NYC_311calls_2018.zip. 
 Then run the command unzip NYC_311calls_2018.zip to decompress the file.
