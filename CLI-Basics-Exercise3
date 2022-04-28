@@ -3,7 +3,7 @@ https://www.practicaldatascience.org/html/command_line_part2.html
 
 https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
 
-Exercise 3¶
+Exercise 3¶ EXPLORING FILES
 Do as the README.md suggests and read it first with the command cat README.md, 
 then with the command less README.md (press q for quit to get out when you’re done).
 
