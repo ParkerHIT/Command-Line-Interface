@@ -6,4 +6,7 @@ https://www.practicaldatascience.org/html/command_line_part2.html
 https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
 
 Exercise 5¶ EXPLORING FILES
-Lets actually see the difference between plaintext and binary files. In your folder are two files called just_the_letter_a, one with a .txt suffix, and one with a .docx suffix. Using your normal operating system interface, open both files (assuming you have Microsoft Word installed). You should see that both files include nothing except a lower-case letter “a”.
+Lets actually see the difference between plaintext and binary files. 
+In your folder are two files called just_the_letter_a, one with a .txt suffix, 
+and one with a .docx suffix. Using your normal operating system interface, open both files (assuming you have Microsoft Word installed). 
+You should see that both files include nothing except a lower-case letter “a”.
