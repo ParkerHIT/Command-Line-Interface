@@ -1,0 +1,26 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+
+Exercise 9¶
+OK, so CE-20170824.pdf is just a paper someone wrote using this data. 
+Since the name CE-20170824.pdf doesn’t tell us anything about this paper, let’s rename it using the mv command. 
+Recall from DataCamp that mv stands for move, but that while it is moving files it can also rename them. 
+If you “move” something from its current location back to its current location but with a different name, you’ve effectively re-named it!.
+So try re-naming CE-20170824.pdf to something more descriptive.
+
+
+Solution:
+
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatata$ mv CE-20170824.pdf Elections_and_ConstituencyResponsiveness.pdf
+
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatata$ ls
+311_SR_Data_Dictionary_2018.xlsx
+Elections_and_ConstituencyResponsiveness.pdf
+NYC311_column_names.txt
+README.md
+just_the_letter_a.docx
+just_the_letter_a.txt
+raw data
