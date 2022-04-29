@@ -1,0 +1,23 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+Exercise 10¶
+Without using the command line (or another progamming language), how you would pull out all the files for Thursdays and Fridays 
+and move them to a new folder without using the command line? Would you strategy work if you had 10 years of data instead of 1 year of data?
+
+..
+Exercise 11¶
+One of the advantages of the command line is that you can use wildcards (the * symbol) to identify any files with a given pattern. 
+For example, if I wanted to list all the CSV files in raw data from February, I would type ls 311calls_2018_2_*.csv, 
+since all the files from February (month 2) would have the same prefix (311calls_2018_2_) and suffix (.csv). 
+Now, using the mv command and the * symbol, move all the Thursday and Friday files to a new folder. 
+(Hint: you’ll probably need to make a new folder to put the files into first.)
+
+Solution:
+
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatata$ mkdir raw\ data/TandF
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatata$ mv raw\ data/*Thursday.csv raw\ data/*Friday.csv raw\ data/TandF
+
+
