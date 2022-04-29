@@ -1,0 +1,18 @@
+https://www.practicaldatascience.org/html/command_line_part1.html
+https://www.practicaldatascience.org/html/command_line_part2.html
+
+https://www.practicaldatascience.org/html/exercises/Exercise_CommandLine_1_Basics.html
+
+Exercise 8¶
+Let’s use the open command (on a mac) or the start command (if you’re using a bash shell on windows). open FILENAME / start FILENAME 
+just asks your computer to do whatever it would do if you double-clicked on FILENAME. 
+So if you type open CE-20170824.pdf / start CE-20170824.pdf, your computer will open the PDF in your default PDF reader.
+
+
+Solution:
+
+Macaws-MacBook-Pro:NYC_311calls_2018 hakunamatat$ open CE-20170824.pdf
+
+Terminal Response:
+
+Opens the file in the PDF Reader Application.
